@@ -1,0 +1,48 @@
+.content-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 150%;
+}
+
+.content-desc {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(75, 180, 154);
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px 70px 0px;
+}
+
+#input {
+    margin-top: 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 185, 101);
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(40, 185, 101);
+    color: white;
+}
